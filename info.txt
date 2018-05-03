@@ -1,0 +1,3 @@
+gmail: physicistweb
+github: physicistdk
+freenom: physicist.ml
