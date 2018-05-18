@@ -5,7 +5,8 @@
 
   <title>Frontpage</title>
   <meta charset="utf-8"/>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Activate Latex -->
   <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
@@ -29,9 +30,17 @@
       <h1 class="col-sm-4">Home</h1>
       <nav class="col-sm-8 text-right">
         <div class="navbar">
-          <a href="http://physicist.dk/">Home</a>
-          <a href="topics.html">Topics</a>
-          <a href="http://physicist.dk/?page_id=517">Contact</a>
+          	<a href="index.html">Home</a>
+          	<div class="dropdown">
+        		<button class="dropbtn">Topics<i class="fa fa-caret-down"></i></button>
+        		<div class="dropdown-content">
+          			<a href="#">Whatever</a>
+          			<a href="#">You</a>
+          			<a href="#">Want!</a>
+          			<a href="https://physicistdk.github.io/carouselExampel">Here lies an exampel</a>
+        		</div>
+      		</div>
+          	<a href="#">Contact</a>
         </div>
       </nav>
     </div>    
@@ -67,16 +76,6 @@
     </p>
       <div class="col-sm-6">
         <p><strong>Example of dropdown menu.</strong></p>
-        <div class="dropdown">
-        <button class="dropbtn">Dropdown</button>
-        <div class="dropdown-content">
-          <a href="#">Whatever</a>
-          <a href="#">You</a>
-          <a href="#">Want!</a>
-          <a href="https://physicistdk.github.io/carouselExampel">Here lies an exampel</a>
-        </div>
-      </div>
-      </div> 
     </div>
    	<div class="row">
       <figure class="col-sm-6">
@@ -94,7 +93,7 @@
     <div class="row">
       <p class="col-sm-4">&copy; 2018 Workshop</p>
       <ul class="col-sm-8">
-        <li class="col-sm-1">
+        <li class="col-sm-1"> 
           <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
         </li>
         <li class="col-sm-1"> 
